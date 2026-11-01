@@ -49,6 +49,14 @@ score was 3.3 and off-topic scores were 0, which is how the 2.0 threshold was ch
 The offline extractive answers are sometimes clumsy, which is exactly the gap the LLM
 step closes.
 
+## Web demo
+Interactive Streamlit chat: ask policy questions, see the cited source and match score, and browse the knowledge base in the sidebar. Runs in offline mode by default; add `ANTHROPIC_API_KEY` in the app's Streamlit secrets to turn on Claude.
+
+```bash
+streamlit run streamlit_app.py      # opens http://localhost:8501
+```
+On first start the app trains the model if no saved model exists (same code as `app/train.py`).
+
 ## Run it
 ```bash
 pip install -r requirements.txt
