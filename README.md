@@ -1,5 +1,7 @@
 # RAG Policy Assistant (Generative AI)
 
+**🚀 Live demo: [ayaz-policy-assistant.streamlit.app](https://ayaz-policy-assistant.streamlit.app)**
+
 A Retrieval-Augmented Generation (RAG) assistant that answers employee questions about
 HR and IT policies, with citations, an "I don't know" guardrail and PII redaction.
 Works fully offline, and uses Claude as the LLM when an API key is set.
